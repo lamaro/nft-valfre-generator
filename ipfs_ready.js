@@ -2,12 +2,12 @@
 
 const fs = require("fs");
 
-const IPFS_URL = `https://ipfs.com`;
+const IPFS_URL = `ipfs://[CID]/`; //PLACE HERE THE PINATA CID hash OF IMAGES FOLDER ( ipfs://[CID]/ )
 const dir = {
   metadata: `./outputs/metadata`,
   output: `./outputs/metadata/ipfs`,
 };
-const length = fs.readdirSync(dir.metadata).length; //One less for the ipfs folder
+const length = fs.readdirSync(dir.metadata).length;
 
 const recreateOutputsDir = () => {
   if (fs.existsSync(dir.output)) {

@@ -1,57 +1,67 @@
 /*
-0 - 00_background
-1 - 01_pattern
-2 - 02_body
-3 - 03_crust
-4 - 04_eyes
-5 - 05_mouth
-6 - 06_topper
-7 - 07_Legal Status
-8 - 08_Toast Level
-9 - 09_species
+0. BACKGROUNDS
+1. WINGS
+2. SKIN
+3. MAKEUP
+4. BODY ART
+5. FACE ACCESSORIES
+6. CLOTHING
+7. OUTERWEAR
+8. HAIRSTYLE
+9. NECK ACCESSORIES
+10. EYEWEAR
+11. HEADWEAR
  */
 
 const folderPath = "01_toxic generation";
 
 const traits = [
   [
-    //Background - 0
+    //0. BACKGROUNDS
     
   ],
   [
-    //Pattern - 1
+    //1. WINGS
     
   ],
   [
-    //Body - 2
+    //2. SKIN
     
   ],
   [
-    //Crust - 3
+    //3. MAKEUP
     
   ],
   [
-    //Eyes - 4
+    //4. BODY ART
     
   ],
   [
-    //Mouth - 5
+    //5. FACE ACCESSORIES
     
   ],
   [
-    //Topper - 6
+    //6. CLOTHING
     
   ],
   [
-    //Legal Status - 7
+    //7. OUTERWEAR
     
   ],
   [
-    //Toast Level - 8
+    //8. HAIRSTYLE
     
   ],
   [
-    //Species - 9
+    //9. NECK ACCESSORIES
+    
+  ],
+  [
+    //10. EYEWEAR
+    
+  ],
+  [
+    //11. HEADWEAR
     
   ],
  

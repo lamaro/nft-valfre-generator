@@ -1,19 +1,21 @@
 /*
-Traits Indexes
-0 - Background
-1 - Top
-2 - Hair
-3 - Ears
-4 - Eyes
-5 - Mouth
-6 - Frame
-*/
+0. BACKGROUNDS
+1. WINGS
+2. SKIN
+3. MAKEUP
+4. BODY ART
+5. FACE ACCESSORIES
+6. CLOTHING
+7. OUTERWEAR
+8. HAIRSTYLE
+9. NECK ACCESSORIES
+10. EYEWEAR
+11. HEADWEAR
+ */
 
 const characters = [
-  { name: "Toxic", weight: 5, folder: "toxic" },
-  { name: "See thru", weight: 15, folder: "see-throu" },
-  { name: "Scenic", weight: 60, folder: "scenic" },
-  { name: "Solid", weight: 80, folder: "solid" },
+  { name: "Witch", weight: 70, folder: "Witches" },
+  { name: "Merdmaid", weight: 52, folder: "Mermaids" },
 ];
 
 module.exports = {
